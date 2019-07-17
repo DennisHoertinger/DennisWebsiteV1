@@ -1,5 +1,5 @@
 +++
-title = "Jan Raasch"
+title = "Dennis Hörtinger"
 tagline = "Software Developer.  Yoga Teacher."
 +++
 
