@@ -24,7 +24,7 @@ copyright = "&copy;2019 Jan Raasch"
     # Image
     [params.visual.image]
       enable = true
-      file = "images/dennis-hörtinger-background.gif"
+      file = "images/dennis-hoertinger-background.gif"
       position = "center center"
   [[params.links]]
 
