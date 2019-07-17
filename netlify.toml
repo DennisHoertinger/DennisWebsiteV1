@@ -35,13 +35,13 @@ HUGO_ENABLEGITINFO = "true"
 # PER-DEPLOY.
 
 [[redirects]]
-  from = "http://lucid-leakey-72209b.netlify.com/*"
-  to = "http://www.janraasch.com/:splat"
+  from = "http://objective-kilby-6e217c.netlify.com/*"
+  to = "http://dennishoertinger.eu/:splat"
   force = true
   status = 301
 
 [[redirects]]
-  from = "https://lucid-leakey-72209b.netlify.com/*"
-  to = "https://www.janraasch.com/:splat"
+  from = "https://objective-kilby-6e217c.netlify.com/*"
+  to = "https://dennishoertinger.eu/:splat"
   force = true
   status = 301
