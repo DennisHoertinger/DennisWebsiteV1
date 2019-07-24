@@ -1,4 +1,4 @@
-baseURL = "//dennishoertinger.eu/"
+baseURL = "//www.dennishoertinger.eu/"
 languageCode = "en-us"
 title = "dennis"
 theme="hugo-split-theme"

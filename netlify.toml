@@ -36,12 +36,12 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "http://objective-kilby-6e217c.netlify.com/*"
-  to = "http://dennishoertinger.eu/:splat"
+  to = "http://www.dennishoertinger.eu/:splat"
   force = true
   status = 301
 
 [[redirects]]
   from = "https://objective-kilby-6e217c.netlify.com/*"
-  to = "https://dennishoertinger.eu/:splat"
+  to = "https://www.dennishoertinger.eu/:splat"
   force = true
   status = 301
