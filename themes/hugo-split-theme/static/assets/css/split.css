@@ -87,7 +87,7 @@ body,
 p,
 a,
 a:hover {
-  color: #000000;
+  color: #003399;
 }
 
 a,
@@ -140,11 +140,23 @@ body.page-template-page-fullsingle-split p {
   width: 50%;
   height: 100vh;
   background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.fs-split .split-image img#logo {
+  margin: auto;
+  width: 80%;
+  display: none;
 }
 @media (max-width: 800px) {
   .fs-split .split-image {
     height: 100vh;
     width: 100%;
+  }
+  .fs-split .split-image img#logo {
+    margin: auto;
+    width: 80%;
+    display: block;
   }
 }
 .fs-split .split-content {
@@ -191,7 +203,7 @@ body.page-template-page-fullsingle-split p {
   line-height: 16px;
   margin-bottom: 40px;
   /* letter-spacing: 0.4px; */
-  color: #CA486d;
+  color: #003399;
 }
 .split-intro .tagline {
   color: #CCCCCC;
@@ -222,9 +234,9 @@ body.page-template-page-fullsingle-split p {
   border-bottom: 1px dotted #848d96;
 }
 .split-bio a:hover {
-  color: #CA486d;
+  color: #003399;
   transition-duration: 0.1s;
-  border-bottom: 1px dotted #CA486d;
+  border-bottom: 1px dotted #003399;
 }
 .split-bio em,
 .split-bio i {
@@ -356,12 +368,13 @@ body.page-template-page-fullsingle-split p {
   transition-duration: 0.5s;
 }
 .split-lists .split-list ul li a:hover {
-  color: #CA486d;
+  color: #003399;
   transition-duration: 0.1s;
 }
 
 .split-credit {
   opacity: 0.4;
+  text-align: center;
 }
 .split-credit p {
   font-size: 12px;

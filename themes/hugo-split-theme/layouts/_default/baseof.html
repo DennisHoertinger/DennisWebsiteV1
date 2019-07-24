@@ -13,7 +13,7 @@
     {{ if .Site.Params.visual.image.enable }}
 
       <div class="split-image">
-
+        <img id="logo" alt="logo!" src="./images/dennis-logo.png" >
       </div>
 
     <!-- Video -->
@@ -34,6 +34,8 @@
           <!-- Bio -->
           {{ partial "bio" . }}
         {{ end }}
+        <!-- Footer -->
+        {{ partial "footer" . }}
       </div>
     </div>
 
